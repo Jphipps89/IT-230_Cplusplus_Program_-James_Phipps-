@@ -1,1 +1,16 @@
-# IT-230_Cplusplus_Program_James_Phipps
+Final Journal Entry – IT 230
+
+Briefly summarize the requirements and goals of the application you developed. What user needs was this application designed to address?:
+The objective of this project was to develop a course registration system that allowed students to select courses for a term while following specific business rules. The console application provided a text based registration experience, while the WPF application introduced a user friendly graphical interface. Both versions ensured users could not register for the same course twice and enforced a maximum of nine credit hours. The application addressed the need for a reliable, clear, and intuitive way for students to manage their course selections.
+
+What did you do particularly well in developing this application?:
+I excelled in creating a seamless and user friendly experience through thoughtful input validation and dynamic feedback. Beyond meeting the functional requirements, I ensured that users received immediate and clear messages whether they successfully registered, attempted duplicate registration, or exceeded credit limits. Careful attention to flow control and user messaging helped make the system feel polished and responsive.
+
+Compare and contrast the Console and WPF application designs. What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?:
+The console version relied on text menus and numerical inputs, offering a basic but functional experience. The WPF application introduced dropdown menus for course selection, a registration button, a real-time list of registered courses, and a dynamic total credit hours display. The WPF design kept users in mind by minimizing input errors and offering clear, visual feedback at every step. Message boxes confirmed success or highlighted errors immediately, enhancing user confidence. Structuring the layout to separate course selection from registration results made the interface intuitive and highly user centered.
+
+How did you approach the process of debugging and coding your application? What techniques or strategies did you use? How could you use those techniques or strategies in the future?:
+I used an incremental approach to debugging, building and testing one feature at a time before moving to the next. This allowed me to identify and fix issues early, reducing the risk of larger problems later. I also used targeted MessageBox outputs to trace logical flow and verify user inputs. In future projects, I plan to continue using small-step development combined with visual debugging techniques to maintain control over complexity and ensure smooth progress.
+
+Where did you have to be innovative to overcome a challenge in the full application development process?:
+A key challenge was designing a clean and simple way to display registered courses in the WPF interface. Rather than introducing more complex controls like a ListBox, I innovated by using a multi line TextBox and dynamically appending new registrations. This approach simplified both the code and the user experience, balancing functionality with clarity. Choosing the simplest effective solution was an important innovation that kept the project efficient and user friendly.
