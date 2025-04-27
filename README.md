@@ -1,1 +1,1 @@
-# IT-230_Cplusplus_Program_-James_Phipps-
+# IT-230_Cplusplus_Program_James_Phipps
